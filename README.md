@@ -12,10 +12,10 @@ Müşteri kaybını önlemek, yeni müşteri kazanmaktan çok daha maliyetlidir.
 ---
 
 ## 🛠️ Kullanılan Teknolojiler (Tech Stack)
-- **Data Processing:** PySpark (Spark SQL & MLlib)
+- **Veri İşleme Kısmı:** PySpark (Spark SQL & MLlib)
 - **Model:** Logistic Regression
-- **Web App:** Streamlit
-- **Visualization:** Seaborn, Matplotlib
+- **Web Uygulaması:** Streamlit
+- **Görselleştirme:** Seaborn, Matplotlib
 - **Language:** Python
 
 ---
@@ -36,7 +36,7 @@ Model, giden müşterileri (True Positives) yakalamaya odaklanmıştır. **0.19 
 ## 💻 Uygulama Nasıl Çalıştırılır? (How to Run)
 
 1. **Gereksinimleri Kurun:**
- pip install streamlit
+pip install streamlit
 
 2.**Uygulamayı Başlatın:**
 streamlit run app.py
