@@ -51,3 +51,5 @@ app.py: Streamlit web arayüzü ve matematiksel tahmin motoru.
 
 requirements.txt: Gerekli kütüphaneler listesi.
 
+NOT : Projenin kalbi olan büyük veri analizi, lojistik regresyon modelinin eğitilmesi ve threshold (eşik) optimizasyonları tamamen PySpark üzerinde tarafımca olarak geliştirilmiştir. Modelin hızlı bir şekilde canlıya alınması (Deployment) sürecinde, Streamlit arayüzünün kodlanması için yapay zekadan destek alınmıştır.
+
