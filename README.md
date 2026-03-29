@@ -36,5 +36,18 @@ Model, giden müşterileri (True Positives) yakalamaya odaklanmıştır. **0.19 
 ## 💻 Uygulama Nasıl Çalıştırılır? (How to Run)
 
 1. **Gereksinimleri Kurun:**
-   ```bash
-   pip install streamlit
+ pip install streamlit
+
+2.**Uygulamayı Başlatın:**
+streamlit run app.py
+
+3.**Test Edin:**
+Arayüzdeki "🔴 Riskli Müşteri" senaryosunu seçerek modelin yüksek riskli profilleri nasıl ayırt ettiğini gözlemleyebilirsiniz.
+
+📄 Dosya Yapısı (Project Structure)
+proje.ipynb: Veri analizi, görselleştirme ve PySpark model eğitim süreci.
+
+app.py: Streamlit web arayüzü ve matematiksel tahmin motoru.
+
+requirements.txt: Gerekli kütüphaneler listesi.
+
